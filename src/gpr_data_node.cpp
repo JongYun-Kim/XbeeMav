@@ -49,9 +49,6 @@ int main(int argc, char **argv)
 
   ros::NodeHandle nh;
 
-  //std::string temp_str1 = "gpr_data_";
-  //std::string temp_str2 = ".txt";
-  //std::string the_file_name = temp_str1 + file_num_ + temp_str2;
   // Declare file obj
   ofstream file_wrtie_gpr_obj("gpr_data_" + file_num_ + ".txt");
 
