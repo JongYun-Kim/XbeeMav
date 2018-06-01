@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Addresses>
-		<Device Address= "1"  >0013A20040B272E6</Device>
-		<Device Address= "2"  >0013A200415278B8</Device>
-		<Device Address= "3"  >0013A20040B2732E</Device>
-		<Device Address= "4"  >0013A20040B27306</Device>
-		<Device Address= "5"  >0013A200403AB637</Device>
-		<Device Address= "6"  >0013A200403AB671</Device>
-		<Device Address= "7"  >0013A200410A27D2</Device>
-		<Device Address= "8"  >0013A200410A27CF</Device>
-		<Device Address= "9"  >0013A200415A9DDZ</Device>
-		<Device Address= "10" >0013A200415A9DEZ</Device>
-		<Device Address= "11" >0013A200415A9DDZ</Device>
-		<Device Address= "12" >0013A200415A9DDZ</Device>
-		<Device Address= "13" >0013A200415A9DEZ</Device>
-    <Device Address= "14" >0013A2004156FA60</Device>
-    <Device Address= "15" >0013A2004156FA61</Device>
+		<Device Address= "1"  >0013A200410A27D2</Device>
+		<Device Address= "2"  >0013A200410A27CF</Device>
+		<Device Address= "3"  >0013A200410A2742</Device>
+		<Device Address= "4"  >0013A200410A2744</Device>
+		<Device Address= "5"  >0013A200410A275C</Device>
+		<Device Address= "6"  >0013A200110A2738</Device>
+		<Device Address= "03" >0013A20040B2732E</Device>
+		<Device Address= "04" >0013A20040B27306</Device>
+	<Device Address= "7"  >0013A200410A27DZ</Device>
+	<Device Address= "8"  >0013A200410A27CZ</Device>
+	<Device Address= "9"  >0013A200415A9DDZ</Device>
+	<Device Address= "10" >0013A200415A9DEZ</Device>
+	<Device Address= "11" >0013A200415A9DDZ</Device>
+	<Device Address= "12" >0013A200415A9DDZ</Device>
+	<Device Address= "13" >0013A200415A9DEZ</Device>
+	<Device Address= "14" >0013A2004156FA60</Device>
+	<Device Address= "15" >0013A2004156FA61</Device>
 
 </Addresses>
