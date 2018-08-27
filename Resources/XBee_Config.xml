@@ -16,13 +16,13 @@
 		<Parameter Command="DH" Description="Destination Address High">0</Parameter>
 		<Parameter Command="DL" Description="Destination Address Low">FFFF</Parameter>
 		<Parameter Command="TO" Description="Transmit Options">C0</Parameter>
-		<Parameter Command="NI" Description="Node Identifier">'Node 1'</Parameter>
+		<Parameter Command="NI" Description="Node Identifier">'Client'</Parameter>
 		<Parameter Command="NT" Description="Network Dsicovery Back-Off">82</Parameter>
 		<Parameter Command="NO" Description="Network Dsicovery Options">0</Parameter>
 		<Parameter Command="CI" Description="Cluster ID">11</Parameter>
 		<Parameter Command="EE" Description="Encryption Enbale">0</Parameter>
 		<Parameter Command="KY" Description="Encryption Key"></Parameter>
-		<Parameter Command="BD" Description="Baud Rate">8</Parameter>
+		<Parameter Command="BD" Description="Baud Rate">7</Parameter>
 		<Parameter Command="NB" Description="Parity">0</Parameter>
 		<Parameter Command="SB" Description="Stop Bits">0</Parameter>
 		<Parameter Command="RO" Description="Packetization Timeout">3</Parameter>
