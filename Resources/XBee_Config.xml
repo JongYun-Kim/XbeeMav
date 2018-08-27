@@ -16,7 +16,7 @@
 		<Parameter Command="DH" Description="Destination Address High">0</Parameter>
 		<Parameter Command="DL" Description="Destination Address Low">FFFF</Parameter>
 		<Parameter Command="TO" Description="Transmit Options">C0</Parameter>
-		<Parameter Command="NI" Description="Node Identifier">'Client'</Parameter>
+		<Parameter Command="NI" Description="Node Identifier">'Raw_Node'</Parameter>
 		<Parameter Command="NT" Description="Network Dsicovery Back-Off">82</Parameter>
 		<Parameter Command="NO" Description="Network Dsicovery Options">0</Parameter>
 		<Parameter Command="CI" Description="Cluster ID">11</Parameter>
