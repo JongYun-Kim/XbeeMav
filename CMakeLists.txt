@@ -81,6 +81,21 @@ target_link_libraries(test_buzz ${catkin_LIBRARIES})
 add_executable(test_buzz_cyclic src/TestBuzzCyclic.cpp)
 target_link_libraries(test_buzz_cyclic ${catkin_LIBRARIES})
 
+add_executable(srv_client_node src/srv_client_node.cpp)
+target_link_libraries(srv_client_node ${catkin_LIBRARIES})
+
+add_executable(rssi_publisher_node src/rssi_publisher_node.cpp)
+target_link_libraries(rssi_publisher_node ${catkin_LIBRARIES})
+
+add_executable(rssi_publisher_node2 src/rssi_publisher_node2.cpp)
+target_link_libraries(rssi_publisher_node2 ${catkin_LIBRARIES})
+
+add_executable(gpr_data_node src/gpr_data_node.cpp)
+target_link_libraries(gpr_data_node ${catkin_LIBRARIES})
+
+add_executable(gpr_data_node2 src/gpr_data_node2.cpp)
+target_link_libraries(gpr_data_node2 ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
