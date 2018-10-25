@@ -96,6 +96,9 @@ target_link_libraries(gpr_data_node ${catkin_LIBRARIES})
 add_executable(gpr_data_node2 src/gpr_data_node2.cpp)
 target_link_libraries(gpr_data_node2 ${catkin_LIBRARIES})
 
+add_executable(rssi_node src/rssi_node.cpp)
+target_link_libraries(rssi_node ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
