@@ -67,14 +67,18 @@ int main(int argc, char **argv)
         printf("     RSSI: %.1f \n", msg.data);
         pub_rssi.publish(msg);
       }
-      else
+      else  // when the value is too small
       {
+        msg.data = -1.0;
+        pub_rssi.publish(msg);
         ROS_ERROR("The value of the rssi seems to be wrong");
       }
 
     }
     else
     {
+      msg.data = -2.0;
+      pub_rssi.publish(msg);
       ROS_ERROR("Failed to call service rssi_get");
       //return 1; Do Not terminate this node although there's no rssi input
       //should keep runing until ctrl C is cominig in
