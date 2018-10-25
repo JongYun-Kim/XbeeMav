@@ -6,7 +6,7 @@
 int main(int argc, char **argv)
 {
   // ROS initialization
-  ros::init(argc, argv, "rssi_publisher_node");
+  ros::init(argc, argv, "rssi_node");
   // Input arguments treatment
   if (argc != 3) // input validation
   {
