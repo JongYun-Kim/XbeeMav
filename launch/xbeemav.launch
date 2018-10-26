@@ -12,12 +12,12 @@
   <param name="USB_port" type="str" value="/dev/ttyUSB0" />
   <param name="Baud_rate" type="double" value="115200" />
 
-	<arg name="ns" default="jy" />
+	<!--arg name="ns" default="jy" />
 	<group ns="$(arg ns)">
 		<!--node pkg="xbee_ros_node" type="rssi_node" name="rssi_node1" args="9 2" output="screen"/>
 		<node pkg="xbee_ros_node" type="rssi_node" name="rssi_node2" args="9 4" output="screen"/-->
 		<node pkg="xbee_ros_node" type="rssi_node" name="rssi_node1" args="9 2" />
 		<node pkg="xbee_ros_node" type="rssi_node" name="rssi_node2" args="9 4" />
-	</group>
+	</group-->
 
 </launch>
