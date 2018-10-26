@@ -18,6 +18,6 @@
 		<node pkg="xbee_ros_node" type="rssi_node" name="rssi_node2" args="9 4" output="screen"/-->
 		<node pkg="xbee_ros_node" type="rssi_node" name="rssi_node1" args="9 2" />
 		<node pkg="xbee_ros_node" type="rssi_node" name="rssi_node2" args="9 4" />
-	</group-->
+	</group -->
 
 </launch>
