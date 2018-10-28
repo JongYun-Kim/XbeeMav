@@ -7,4 +7,4 @@ You may want to change the name space to what you want for your device running t
 
 # summary
     (1) change the name space in all launch files in this folder
-    (2) check if the nodes, topics, and services has a proper name space while you running the launch files.
+    (2) check if the nodes, topics, and services have the same proper name space while you running the launch files.
