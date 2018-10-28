@@ -1,0 +1,6 @@
+<launch>
+  <arg name="ns" default="jy" />
+  <group ns="$(arg ns)">
+    <node pkg="xbee_ros_node" type="test_buzz" name="buzz_1" output="screen"/>
+  </group>
+</launch>
