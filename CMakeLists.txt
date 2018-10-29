@@ -99,6 +99,10 @@ target_link_libraries(gpr_data_node2 ${catkin_LIBRARIES})
 add_executable(rssi_node src/rssi_node.cpp)
 target_link_libraries(rssi_node ${catkin_LIBRARIES})
 
+add_executable(bagplay src/bagplay.cpp)
+target_link_libraries(bagplay ${catkin_LIBRARIES})
+
+
 #############
 ## Install ##
 #############
